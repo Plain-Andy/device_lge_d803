@@ -5,8 +5,6 @@ $(call inherit-product, vendor/aicp/configs/common.mk)
 $(call inherit-product, vendor/aicp/configs/gsm.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/d802/d802.mk)
+$(call inherit-product, device/lge/d803/d803.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += 
-BUILD_FINGERPRINT=lge/g2_open_com/g2:4.2.2/JDQ39B/D80210a.1378316352:user/release-keys 
-PRIVATE_BUILD_DESC="g2_open_com-user 4.2.2 JDQ39B D80210a.1378316352 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=d803 BUILD_FINGERPRINT=lge/g2_ca/g2:4.4.2/KOT49I.D803B20e/D803B20e.1394602420:user/release-keys PRIVATE_BUILD_DESC="g2_ca-user 4.4.2 KOT49I.D803B20e D803B20e.1394602420 release-keys"

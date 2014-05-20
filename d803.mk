@@ -31,4 +31,4 @@ PRODUCT_MANUFACTURER := lge
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/lge/d802/device.mk)
+$(call inherit-product, device/lge/d803/device.mk)
